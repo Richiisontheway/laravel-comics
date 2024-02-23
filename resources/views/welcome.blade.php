@@ -3,5 +3,6 @@
 @section('page-title', 'Home')
 
 @section('main-content')
-
+    <section>
+    </section>
 @endsection

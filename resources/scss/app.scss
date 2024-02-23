@@ -29,4 +29,9 @@ header {
             }
         }
     }
+    .jumbo--container {
+        height: 300px;
+        background-image: url(../img/jumbotron.jpg);
+        background-size: cover;
+    }
 }

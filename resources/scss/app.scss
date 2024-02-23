@@ -1,7 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
 header {
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
     background-color: white;
 
     nav {
@@ -11,6 +11,21 @@ header {
             img {
                 height: 100%;
                 width: 100%;
+                object-fit: contain;
+            }
+        }
+        ul {
+            display: flex;
+            margin-bottom: 0;
+            list-style: none;
+
+            li {
+                margin: 0 10px;
+                a {
+                    color: black;
+                    text-decoration: none;
+                    font-weight: 700;
+                }
             }
         }
     }

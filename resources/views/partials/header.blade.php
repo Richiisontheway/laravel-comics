@@ -53,8 +53,15 @@
                             <img src="{{ Vite::asset ('resources/img/dc-logo.png') }}" alt="">
                         </div>
                     <ul>
-
+                        @foreach ($links as $link)
+                            <li>
+                                <a href="{{$link['url'] }}">
+                                    {{$link['label'] }}
+                                </a>
+                            </li>
+                        @endforeach
                     </ul>
+                    <input type="text" class="w-25">
                 </div>
             </section>
         </nav>

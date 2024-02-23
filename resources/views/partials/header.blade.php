@@ -1,39 +1,62 @@
 @php
     $links = [
         [
-            'url' => '/',
-            'label' => 'Home',
-            'active' => true,
+            'url' => '/character',
+            'label' => 'Character',
         ],
         [
-            'url' => '/chi-siamo',
-            'label' => 'Chi siamo',
-            'active' => true,
+            'url' => '/comics',
+            'label' => 'Comics',
         ],
         [
-            'url' => '/contatti',
-            'label' => 'Contatti',
-            'active' => false,
+            'url' => '/movies',
+            'label' => 'Movies',
+        ],
+        [
+            'url' => '/tv',
+            'label' => 'Tv',
+        ],
+        [
+            'url' => '/games',
+            'label' => 'Games',
+        ],
+        [
+            'url' => '/collectbles',
+            'label' => 'Collectbles',
+        ],
+        [
+            'url' => '/videos',
+            'label' => 'Videos',
+        ],
+        [
+            'url' => '/fans',
+            'label' => 'Fans',
+        ],
+        [
+            'url' => '/news',
+            'label' => 'News',
         ],
     ];
 @endphp
 
 <header>
-    <nav>
-        <ul>
-            @foreach ($links as $link)
-                <li>
-                    @if ($link['active'])
-                        <a href="{{ $link['url'] }}">
-                            {{ $link['label'] }}
-                        </a>
-                    @else
-                        <del>
-                            {{ $link['label'] }}
-                        </del>
-                    @endif
-                </li>
-            @endforeach
-        </ul>
-    </nav>
+    <section>
+        <div class="bg-primary text-light d-flex justify-content-end">
+            <span class="mx-5">
+                DC POWER VISA
+            </span>
+        </div>
+        <nav>
+            <section class="d-flex align-items-center">
+                <div class="container d-flex align-items-center justify-content-between">
+                        <div class="img-container">
+                            <img src="{{ Vite::asset ('resources/img/dc-logo.png') }}" alt="">
+                        </div>
+                    <ul>
+
+                    </ul>
+                </div>
+            </section>
+        </nav>
+    </section>
 </header>

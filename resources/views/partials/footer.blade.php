@@ -88,4 +88,39 @@
             </div>
         </div>
     </section>
+    <section class="d-flex bottom-footer">
+        <div class="container d-flex align-items-center justify-content-between ">
+            <a href="#">
+                SIGN UP NOW
+            </a>
+            <div class="blue">
+                
+                <h4>
+                    FOLLOW US
+                </h4>
+                <ul>
+                    <li>
+                        <img src="{{Vite::asset('resources\img\footer-facebook.png')}}" alt="">
+                    </li>
+                    <li>
+                        <img src="{{Vite::asset('resources\img\footer-periscope.png')}}" alt="">
+    
+                    </li>
+                    <li>
+                        <img src="{{Vite::asset('resources\img\footer-pinterest.png')}}" alt="">
+    
+                    </li>
+                    <li>
+                        <img src="{{Vite::asset('resources\img\footer-twitter.png')}}" alt="">
+    
+                    </li>
+                    <li>
+                        <img src="{{Vite::asset('resources\img\footer-youtube.png')}}" alt="">
+    
+                    </li>
+                </ul>
+    
+            </div>
+        </div>
+    </section>
 </footer>

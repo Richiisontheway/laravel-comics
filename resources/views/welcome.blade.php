@@ -18,5 +18,6 @@
                 @endforeach      
             </div>
         </div>
+        <button class="comix--buttonMain">Load more</button>
     </section>
 @endsection
